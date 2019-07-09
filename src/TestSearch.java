@@ -6,6 +6,8 @@ public class TestSearch {
         LinearSearch searchLinear=new LinearSearch();
         BinarySearch searchBinary= new BinarySearch();
 
+        searchBinary.search(5,data);
+
         searchLinear.search(4,data);
 
         searchLinear.search(20,data);
