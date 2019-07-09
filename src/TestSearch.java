@@ -8,6 +8,8 @@ public class TestSearch {
 
         searchLinear.search(4,data);
 
+        searchLinear.search(20,data);
+
         searchBinary.search(7,data);
 
         searchBinary.search(5,data);
