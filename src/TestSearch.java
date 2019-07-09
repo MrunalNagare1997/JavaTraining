@@ -10,7 +10,7 @@ public class TestSearch {
 
         searchBinary.search(7,data);
 
-
+        searchBinary.search(5,data);
     }
 
 }
