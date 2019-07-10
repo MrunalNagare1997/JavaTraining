@@ -20,18 +20,18 @@ public class ExponantialSearch {
         {
             index=index*2;
 
-            //as the index is doubles per iteration it may excel the length of the dataset.
+            /*//as the index is doubles per iteration it may excel the length of the dataset.
             //so we need to reduce the index if it goes beyond the length.
             if(index>=dataSet.length)
             {
                 int diff =index-dataSet.length+1;
                 index-= diff;
                 break;
-            }
+            }*/
 
         }
 
-        searchBinary.search(key,dataSet,index/2,(index<dataSet.length)? index:dataSet.length);
+        searchBinary.search(key,dataSet,index/2,(index<=dataSet.length)? index:dataSet.length);
 
     }
 }
