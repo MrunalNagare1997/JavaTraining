@@ -5,7 +5,7 @@ public class InsertionSort {
     public InsertionSort() {
     }
 
-    public int[] sort(int [] dataSet)
+    public void sort(int [] dataSet)
     {
 
         for(int i=0;i<dataSet.length;i++)
@@ -22,7 +22,7 @@ public class InsertionSort {
             }
 
         }
-        return dataSet;
+
 
     }
 }

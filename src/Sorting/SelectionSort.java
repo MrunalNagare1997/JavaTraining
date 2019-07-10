@@ -6,7 +6,7 @@ public class SelectionSort {
     }
 
 
-    public int[] sort(int [] dataset)
+    public void sort(int [] dataset)
     {
 
         for(int i=0;i<dataset.length;i++)
@@ -23,7 +23,7 @@ public class SelectionSort {
             dataset[i]=dataset[minindex];
             dataset[minindex]=temp;
         }
-        return dataset;
+
 
     }
 }

@@ -5,7 +5,7 @@ public class BubbleSort {
     public BubbleSort() {
     }
 
-    public int [] sort(int [] dataset)
+    public void sort(int [] dataset)
     {
         boolean swaped=false;
 
@@ -33,7 +33,7 @@ public class BubbleSort {
             }
         }
 
-        return dataset;
+
     }
 
 }

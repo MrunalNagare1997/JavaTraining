@@ -19,10 +19,18 @@ public class TestSort {
         SelectionSort sortSelecting = new SelectionSort();
         BubbleSort sortBubble = new BubbleSort();
         InsertionSort sortInsertion =new InsertionSort();
+        MergeSort sortMerg = new MergeSort();
 
-        data=sortInsertion.sort(data);
-
+        sortBubble.sort(data);
         printArray(data);
+        sortSelecting.sort(data);
+        printArray(data);
+        sortInsertion.sort(data);
+        printArray(data);
+        sortMerg.sort(data,0, data.length-1);
+        printArray(data);
+
+
 
     }
 
