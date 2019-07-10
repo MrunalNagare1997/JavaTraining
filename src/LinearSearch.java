@@ -15,7 +15,7 @@ public class LinearSearch {
         {
                if(dataSet[i]==key)
                {
-                   System.out.println("data found at index: "+i);
+                   System.out.println("Data found at index: "+i);
                    flag=true;
                    return;
                }
