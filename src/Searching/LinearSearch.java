@@ -1,3 +1,5 @@
+package Searching;
+
 import javax.sound.sampled.Line;
 
 public class LinearSearch {

@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ba2a54-1ee9-4336-9afb-854f43cb0799" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Searching_Algorithms/InterPoletionSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExponantialSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterPoletionSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Searching_Algorithms/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Searching_Algorithms/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Searching_Algorithms/LinearSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Searching_Algorithms/LinearSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Searching_Algorithms/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Searching_Algorithms/TestSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Searching_Algorithms/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Searching_Algorithms/ExponantialSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Searching_Algorithms/InterPoletionSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Searching_Algorithms/LinearSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Searching_Algorithms/TestSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExponantialSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/ExponantialSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterPoletionSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/InterPoletionSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/TestSearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,29 +28,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorting/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorting/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ExponantialSearch.java">
+        <entry file="file://$PROJECT_DIR$/src/Sorting/TestSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -72,6 +84,11 @@
         <option value="$PROJECT_DIR$/src/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/TestSearch.java" />
         <option value="$PROJECT_DIR$/src/ExponantialSearch.java" />
+        <option value="$PROJECT_DIR$/src/Searching/ExponantialSearch.java" />
+        <option value="$PROJECT_DIR$/src/Sorting/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorting/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorting/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorting/TestSort.java" />
       </list>
     </option>
   </component>
@@ -97,6 +114,12 @@
               <item name="Searching_Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Searching_Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Searching_Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Searching_Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,16 +151,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestSort">
     <configuration name="TestSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestSearch" />
+      <option name="MAIN_CLASS_NAME" value="Searching.TestSearch" />
       <module name="Searching_Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.TestSort" />
+      <module name="Searching_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSort" />
         <item itemvalue="Application.TestSearch" />
       </list>
     </recent_temporary>
@@ -154,18 +191,18 @@
       <updated>1562670889873</updated>
       <workItem from="1562670891644" duration="5751000" />
       <workItem from="1562728762674" duration="1884000" />
-      <workItem from="1562731113845" duration="2326000" />
+      <workItem from="1562731113845" duration="7137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9961000" />
+    <option name="totallyTimeSpent" value="14772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="824" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25611326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25611326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -173,7 +210,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="Run" order="0" visible="true" weight="0.32896653" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
@@ -201,38 +238,66 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/InterPoletionSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Searching/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinearSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Searching/ExponantialSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Searching/InterPoletionSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Searching/LinearSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExponantialSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Searching/TestSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorting/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorting/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorting/TestSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>

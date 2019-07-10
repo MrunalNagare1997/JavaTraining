@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package Searching;
+
 public class TestSearch {
 
     public static void main(String [] args)
