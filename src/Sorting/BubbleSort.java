@@ -24,7 +24,7 @@ public class BubbleSort {
                     swaped=true;
                 }
             }
-            System.out.println(swaped);
+            //System.out.println(swaped);
 
             //if no swap happens then the list is sorted.
             if(!swaped)
