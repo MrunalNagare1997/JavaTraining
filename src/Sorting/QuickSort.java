@@ -10,17 +10,25 @@ public class QuickSort {
 
     public int partition(int [] array, int low, int high)
     {
+        //Generate the random index to be selected as pivot...
+        Random rand= new Random();
+        int randomIndex= rand.nextInt(high-low)+low;
 
-        int smallerIndex= low-1;
+        //Make the random selected index as the last index of the array...
+        int temp1= array[high];
+        array[high]=array[randomIndex];
+        array[randomIndex]= temp1;
 
-        int pivot = array[low];
+        //initializing the pivot and the index of the smaller element...
+        int smallerIndex= low;
+        int pivot = array[high];
+
         //System.out.println("Pivot- "+pivot);
 
         for(int j=low;j<high;j++)
         {
-            if(array[j]>=pivot)
+            if(array[j]<=pivot)
             {
-                smallerIndex++;
 
                 //If current element is smaller then or equal to the pivot,
                 //then increase the smaller index and swap the smaller index element and the current element.
@@ -28,6 +36,7 @@ public class QuickSort {
                 array[smallerIndex]=array[j];
                 array[j]=temp;
 
+                smallerIndex++;
 
             }
            /* System.out.println("\nSI- "+smallerIndex);
@@ -41,8 +50,8 @@ public class QuickSort {
 
 
         //Finally swap the current element and the last element.
-        int temp= array[smallerIndex+1];
-        array[smallerIndex+1]=array[high];
+        int temp= array[smallerIndex];
+        array[smallerIndex]=array[high];
         array[high]= temp;
 
         /*for(int i=low;i<=high;i++)
@@ -50,7 +59,7 @@ public class QuickSort {
             System.out.print(array[i]+", ");
         }*/
 
-        return (smallerIndex+1);
+        return (smallerIndex);
     }
 
     public void sort(int [] dataSet,int low, int high)
