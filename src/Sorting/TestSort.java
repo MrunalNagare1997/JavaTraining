@@ -19,29 +19,35 @@ public class TestSort {
         SelectionSort sortSelecting = new SelectionSort();
         BubbleSort sortBubble = new BubbleSort();
         InsertionSort sortInsertion =new InsertionSort();
-        MergeSort sortMerg = new MergeSort();
+        MergeSort sortMere = new MergeSort();
         QuickSort sortQuick = new QuickSort();
+        HeapSort sortHeap = new HeapSort();
 
-        System.out.println("Bubble Sort...");
+        System.out.println("\nBubble Sort...");
         sortBubble.sort(data);
         printArray(data);
 
-        System.out.println("Selection Sort...");
+        System.out.println("\nSelection Sort...");
         sortSelecting.sort(data);
         printArray(data);
 
-        System.out.println("Insertion Sort...");
+        System.out.println("\nInsertion Sort...");
         sortInsertion.sort(data);
         printArray(data);
 
-        System.out.println("Merge Sort...");
-        sortMerg.sort(data,0, data.length-1);
+        System.out.println("\nMerge Sort...");
+        sortMere.sort(data,0, data.length-1);
         printArray(data);
 
-        System.out.println("Quick Sort...");
+        System.out.println("\nQuick Sort...");
         sortQuick.sort(data,0,data.length-1);
         printArray(data);
 
+        System.out.println("\nHeap Sort...");
+        sortHeap.sort(data);
+        printArray(data);
+
     }
+
 
 }
