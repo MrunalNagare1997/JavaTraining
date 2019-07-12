@@ -1,1 +1,1 @@
-# JavaTraining
+# SearchingSortingAlgorithms
