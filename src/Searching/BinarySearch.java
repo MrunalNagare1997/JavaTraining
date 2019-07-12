@@ -9,7 +9,7 @@ public class BinarySearch {
 
         boolean flag=false;
         int count=0;
-
+        long startTime=System.nanoTime();
         while (max>=min) {
             int mid= (min+max)/2;
             //System.out.println("min-"+min+" max-"+max);
@@ -30,6 +30,8 @@ public class BinarySearch {
             }
 
         }
+        long endTime=System.nanoTime();
+        //System.out.println("time required: "+(endTime-startTime));
         if(!flag) {
             System.out.println("Data not found...");
             return;

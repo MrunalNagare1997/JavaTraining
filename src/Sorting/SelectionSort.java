@@ -8,7 +8,7 @@ public class SelectionSort {
 
     public void sort(int [] dataset)
     {
-
+        long startTime=System.nanoTime();
         for(int i=0;i<dataset.length;i++)
         {
             int minindex= i;
@@ -23,6 +23,9 @@ public class SelectionSort {
             dataset[i]=dataset[minindex];
             dataset[minindex]=temp;
         }
+        long endTime=System.nanoTime();
+        System.out.println("time required: "+(endTime-startTime));
+
 
 
     }

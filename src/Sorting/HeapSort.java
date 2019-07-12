@@ -38,6 +38,8 @@ public class HeapSort {
     public void sort(int [] dataSet)
     {
 
+
+
         for(int currentNode=dataSet.length/2-1;currentNode>=0;currentNode--)
         {
             //System.out.println(currentNode);
@@ -56,6 +58,7 @@ public class HeapSort {
             adjustHeap(dataSet,currentNode,0);
 
         }
+
 
     }
 }

@@ -9,7 +9,6 @@ public class BubbleSort {
     {
         boolean swaped=false;
 
-
         for(int j=0;j<dataset.length;j++)
         {
             swaped=false;
@@ -32,7 +31,6 @@ public class BubbleSort {
                 break;
             }
         }
-
 
     }
 

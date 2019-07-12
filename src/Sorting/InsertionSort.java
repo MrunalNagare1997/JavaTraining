@@ -11,7 +11,7 @@ public class InsertionSort {
         for(int i=0;i<dataSet.length;i++)
         {
             if(i==0)
-                continue;;
+                continue;
             int j=i;
             while(dataSet[j-1]>dataSet[j])
             {
@@ -19,9 +19,13 @@ public class InsertionSort {
                 dataSet[j]=dataSet[j-1];
                 dataSet[j-1]=temp;
                 j--;
+                if(j<=0)
+                    break;
             }
 
         }
+
+
 
 
     }

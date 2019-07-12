@@ -10,15 +10,6 @@ public class QuickSort {
 
     public int partition(int [] array, int low, int high)
     {
-        //Generate the random index to be selected as pivot...
-        Random rand= new Random();
-        int randomIndex= rand.nextInt(high-low)+low;
-
-        //Make the random selected index as the last index of the array...
-        int temp1= array[high];
-        array[high]=array[randomIndex];
-        array[randomIndex]= temp1;
-
         //initializing the pivot and the index of the smaller element...
         int smallerIndex= low;
         int pivot = array[high];
@@ -61,9 +52,11 @@ public class QuickSort {
 
         return (smallerIndex);
     }
-
+    int count=0;
     public void sort(int [] dataSet,int low, int high)
     {
+
+
 
         if (low<high)
         {
@@ -77,6 +70,7 @@ public class QuickSort {
             sort(dataSet,pi+1,high);
 
         }
+
 
     }
 }

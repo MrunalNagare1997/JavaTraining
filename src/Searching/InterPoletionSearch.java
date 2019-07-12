@@ -10,6 +10,8 @@ public class InterPoletionSearch {
         int low=0;
         int high= data.length-1;
         boolean found=false;
+        long startTime=System.nanoTime();
+
         while(high>=low && key>=data[low] && key<=data[high])
         {
 
@@ -28,7 +30,7 @@ public class InterPoletionSearch {
             {
                 found=true;
                 System.out.println("Data found at Index: "+position);
-                return;
+                break;
             }
             else if(key<data[position])
             {
@@ -40,6 +42,8 @@ public class InterPoletionSearch {
             }
 
         }
+        long endTime=System.nanoTime();
+        System.out.println("time required: "+(endTime-startTime));
         if(!found)
         {
             System.out.println("Data not found...");

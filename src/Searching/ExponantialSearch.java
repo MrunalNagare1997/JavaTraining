@@ -15,6 +15,7 @@ public class ExponantialSearch {
             System.out.println("data found at index: 0");
             return;
         }
+        long startTime=System.nanoTime();
 
         while(index< dataSet.length && dataSet[index]<=key)
         {
@@ -32,6 +33,8 @@ public class ExponantialSearch {
         }
 
         searchBinary.search(key,dataSet,index/2,(index<=dataSet.length)? index:dataSet.length);
+        long endTime=System.nanoTime();
+        System.out.println("time required: "+(endTime-startTime));
 
     }
 }
